@@ -325,12 +325,12 @@
     };
     var CARD_PRIORITY = [ CARD.VISA, CARD.MASTERCARD, CARD.AMEX, CARD.DISCOVER, CARD.SWITCH, CARD.MAESTRO, CARD.HIPER, CARD.ELO, CARD.JCB, CARD.CUP, CARD.COFINOGA, CARD.COFIDIS, CARD.CETELEM, CARD.CBNATIONALE ];
     var ENV = {
-        LOCAL: "local",
-        STAGE: "stage",
-        SANDBOX: "sandbox",
-        PRODUCTION: "production",
+        LOCAL: "test",
+        STAGE: "test",
+        SANDBOX: "test",
+        PRODUCTION: "test",
         TEST: "test",
-        DEMO: "demo"
+        DEMO: "test"
     };
     var USERS = {
         ALL: "all",
@@ -347,9 +347,9 @@
         ERROR: "error"
     };
     var PAYMENT_TYPE = {
-        EC_TOKEN: "ec_token",
-        BA_TOKEN: "ba_token",
-        PAY_ID: "pay_id"
+        EC_TOKEN: "1",
+        BA_TOKEN: "1",
+        PAY_ID: "1"
     };
     var PPTM_ID = "xo-pptm";
     var ATTRIBUTE = {
